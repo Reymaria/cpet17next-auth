@@ -1,8 +1,60 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Installation process
+
+Install all dependencies. In the terminal, type
+
+## npm install
+
+Make a database.
+
+Open the xampp control panel. Start Apache and MySql
+
+
+## Database name: cpet17
+Table 1 Name: users
+- id INT 255 AUTO INCREMENT
+- username VARCHAR 255
+- email VARCHAR 255
+- password VARCHAR 255
+
+Table 2 Name: detected
+- id INT 255 AUTO INCREMENT
+- date_time VARCHAR 255
+- captured LONGBLOB
+
+clone the github repo of the server on the parent folder
+
+## https://github.com/Reymaria/server.git
+
+type npm install to install dependencies. 
+
+
+
+Open the folder "server" in an integrated terminal
+
+
+type
+
+## node insert.js
+
+This will start a server in your pc at port 4000
+
+
+
+
+Open the folder "cpet17next-auth" in an integrated terminal
+
+type
+
+## npm run dev
+
+
+This should work fine
+
 
 ## Getting Started
 
-First, run the development server:
+First, run the development server
 
 ```bash
 npm run dev
